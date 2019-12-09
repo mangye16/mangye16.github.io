@@ -4,8 +4,11 @@ TABLE#tlayout {
 HTML {
 	BACKGROUND-COLOR: #dcdcdc
 }
-BODY {
+/* BODY {
 	MAX-WIDTH: 960px; FONT-FAMILY: Georgia, serif; BACKGROUND: white; PADDING-BOTTOM: 50px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 50px; MARGIN: 30px auto 10px; PADDING-RIGHT: 50px
+} */
+BODY {
+	MAX-WIDTH: 960px; FONT-FAMILY: 'Lato', Verdana, Helvetica, sans-serif; FONT-SIZE: 11pt; BACKGROUND: white; PADDING-BOTTOM: 50px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 50px; MARGIN: 30px auto 10px; PADDING-RIGHT: 50px
 }
 #layout-menu {
 	FONT-SIZE: 1em; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid; WIDTH: auto; VERTICAL-ALIGN: top; BACKGROUND: #f6f6f6; WHITE-SPACE: nowrap; BORDER-BOTTOM: #dddddd 1px solid; TEXT-ALIGN: left; PADDING-TOP: 0.5em; PADDING-LEFT: 8px; BORDER-LEFT: #dddddd 1px solid; PADDING-RIGHT: 8px
@@ -22,12 +25,19 @@ BODY {
 TT {
 	BACKGROUND: #ffffdd
 }
-PRE {
+/* PRE {
 	FONT-SIZE: 90%; FONT-FAMILY: monaco, monospace
 }
 TT {
 	FONT-SIZE: 90%; FONT-FAMILY: monaco, monospace
+} */
+PRE {
+	FONT-SIZE: 75%; FONT-FAMILY: 'Lato', Verdana, Helvetica, sans-serif;
 }
+TT {
+	FONT-SIZE: 75%; FONT-FAMILY: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
 A {
 	TEXT-DECORATION: none; COLOR: #224b8d
 }
@@ -74,7 +84,7 @@ DIV#subtitle {
 	MARGIN-BOTTOM: 0em; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0em; MARGIN-TOP: 0em
 }
 EM {
-	FONT-STYLE: italic
+	FONT-STYLE: normal
 }
 STRONG {
 	FONT-WEIGHT: bold
